@@ -1,32 +1,19 @@
 {
   "framework": "mocha",
-  "launch_in_dev": ["SAFE", "Consumption", "misc"],
-  "launch_in_ci": ["SAFE", "Consumption", "misc"],
+  "launch_in_dev": ["SAFE(mocha)", "Consumption"],
+  "launch_in_ci": ["SAFE(mocha)", "Consumption"],
   "launchers": {
-    "SAFE": {
-      "command": "npm test -- --opts test/1SAFE/mocha.opts",
+    "SAFE(mocha)": {
+      "command": "./node_modules/.bin/mocha --opts test/1SAFE/respec-given-mocha-test.opts",
       "protocol": "tap"
     },
     "Consumption": {
-      "command": "npm test -- --opts test/2consumption/mocha.opts",
-      "protocol": "tap"
-    },
-    "misc": {
-      "command": "npm test -- --opts test/mocha-misc.opts",
+      "command": "./node_modules/.bin/mocha --opts test/2consumption/mocha.opts",
       "protocol": "tap"
     }
   },
   "src_files": [
-    "test/**/*.js",
     "test/**/*.coffee",
-    "lib/**/*.js",
-    "na-loader/**/*.js",
-    "na-loader/**/*.coffee"
-  ],
-  "before_tests": "browserify -t coffeeify --extension=\".coffee\" test/**/*.coffee -o test-bundle.js",
-  "on_exit": "rm test-bundle.js",
-  "serve_files": [
-    "test-bundle.js"
-  ],
-  "test_page": "tests.mustache"
+    "lib/**/*.js"
+  ]
 }

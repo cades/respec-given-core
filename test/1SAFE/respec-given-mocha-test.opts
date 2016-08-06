@@ -4,10 +4,13 @@
 --require coffee-script/register
 --compilers coffee:coffee-script/register
 
+--require respec-given/na-loader
 --require respec-given/na-loader/coffee
 --require respec-given/enable-good-habit-mode
 
 -R respec-given/mocha/tap-reporter
--u respec-given
+-u respec-given/mocha
 
-test/2consumption/*.coffee
+node_modules/respec-given/test/**/*.js
+node_modules/respec-given/test/**/*.coffee
+
