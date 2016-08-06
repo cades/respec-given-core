@@ -29,7 +29,8 @@
     "zen-observable": "0.2.1"
   },
   "scripts": {
-    "test": "testem ci | tap-nyan",
+    "test": "testem ci",
+    "test:nyan": "testem ci | tap-nyan",
     "tdd": "testem",
     "link": "rm -rf node_modules/respec-given-core && mkdir -p node_modules/respec-given-core && cd node_modules/respec-given-core && ln -s ../../package.json package.json && ln -s ../../index.js index.js && ln -s ../../enable-good-habit-mode.js enable-good-habit-mode.js && ln -s ../../lib lib && cd -"
   },
