@@ -1,7 +1,7 @@
 {
-  "name": "respec-given",
+  "name": "respec-given-core",
   "version": "0.0.14",
-  "description": "bring rspec-given to JS world, on mocha",
+  "description": "given extension as a library",
   "author": {
     "name": "cades kao",
     "email": "cadeskao@gmail.com"
@@ -42,7 +42,6 @@
     "link": "rm -rf node_modules/respec-given && mkdir -p node_modules/respec-given && cd node_modules/respec-given && ln -s ../../package.json package.json && ln -s ../../index.js index.js && ln -s ../../lib lib && ln -s ../../mocha mocha && cd -"
   },
   "keywords": [
-    "mocha",
     "rspec",
     "given",
     "when",
@@ -53,6 +52,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cades/respec-given"
+    "url": "https://github.com/cades/respec-given-core"
   }
 }

@@ -9,7 +9,7 @@
 --require ./enable-good-habit-mode
 
 -R spec
--u respec-given
+-u respec-given/mocha
 
 test/**/*.js
 test/**/*.coffee

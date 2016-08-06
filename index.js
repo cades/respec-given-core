@@ -1,1 +1,1 @@
-module.exports = require('./mocha/index');
+module.exports = require('./lib/factory');
