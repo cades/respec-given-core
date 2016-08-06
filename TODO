@@ -1,3 +1,16 @@
+Failure 的錯誤訊息不明確. 應該也要有 expected / actual
+
+subject clause. Given : subject 的縮寫.
+
+NA 有問題. 目前假設 binary expression 都是 equal, 但有可能是 !=, >, < 之類的
+
+code 對 estree 的資料結構依賴太深了. 加一層 adapter 較好?
+  目前有相依的 code 集中在 transform-then.js / documentationify.js / ast-util.js 三處
+
+支援空的 Then (只用 Invariant 的話需要這個功能)
+
+  Then ->
+
 錯誤訊息目前 documentationify(fn) 只呈現 Then expression, 缺少上層 describe/context 的文字
 
 bdd interface
