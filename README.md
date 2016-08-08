@@ -10,6 +10,7 @@ With this core, developers can develop `Given` extensions to existing test frame
 ## Extensions that use it
 
 * [respec-given](https://github.com/cades/respec-given), a mocha extension
+* [respec-given-lab](https://github.com/cades/respec-given-lab), a lab extension
 
 ## Development
 
