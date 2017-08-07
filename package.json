@@ -1,6 +1,6 @@
 {
   "name": "respec-given-core",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0",
   "description": "given extension as a library",
   "author": {
     "name": "cades kao",
