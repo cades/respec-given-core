@@ -1,6 +1,6 @@
 {
   "name": "respec-given-core",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "given extension as a library",
   "author": {
     "name": "cades kao",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "expect.js": "0.3.1",
     "mocha": "2.4.3",
-    "respec-given": "1.1.1",
+    "respec-given": "1.2.0",
     "tap-nyan": "0.0.2",
     "testem": "1.8.1",
     "zen-observable": "0.2.1"

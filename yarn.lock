@@ -1084,9 +1084,9 @@ requires-port@1.x.x:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
-respec-given-core@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/respec-given-core/-/respec-given-core-1.0.0.tgz#72423468d410240f95fc774ec1fe83c88778b11f"
+respec-given-core@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/respec-given-core/-/respec-given-core-1.1.2.tgz#ccb46ae8b32ce72ab2541c3856f851210f934d18"
   dependencies:
     co "4.6.0"
     escodegen "1.8.0"
@@ -1099,15 +1099,15 @@ respec-given-core@1.0.0:
     stringifier "1.3.0"
     tosource "1.0.0"
 
-respec-given@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/respec-given/-/respec-given-1.0.1.tgz#037259aeaf60f3212a43631bafabe54441632531"
+respec-given@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/respec-given/-/respec-given-1.1.1.tgz#84fd48af47e38a9ba900a404aa804a9fefce3e56"
   dependencies:
     convert-source-map "1.2.0"
     diff "2.2.3"
     livescript "1.5.0"
     minimatch "3.0.0"
-    respec-given-core "1.0.0"
+    respec-given-core "1.1.2"
     stringifier "1.3.0"
     yamljs "0.2.7"
 
